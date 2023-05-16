@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/linux/genwqe/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/genwqe ./include/uapi/linux/genwqe genwqe_card.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/genwqe ./include/generated/uapi/linux/genwqe ; touch /root/headers-install/include/linux/genwqe/.install

@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/linux/nfc/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/nfc ./include/uapi/linux/nfc nfcinfo.h ntaginfo.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/nfc ./include/generated/uapi/linux/nfc ; touch /root/headers-install/include/linux/nfc/.install

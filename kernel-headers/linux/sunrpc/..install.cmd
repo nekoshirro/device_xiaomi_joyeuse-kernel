@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/linux/sunrpc/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/sunrpc ./include/uapi/linux/sunrpc debug.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/sunrpc ./include/generated/uapi/linux/sunrpc ; touch /root/headers-install/include/linux/sunrpc/.install

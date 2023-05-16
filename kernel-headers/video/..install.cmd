@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/video/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/video ./include/uapi/video edid.h msm_hdmi_hdcp_mgr.h msm_hdmi_modes.h sisfb.h uvesafb.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/video ./include/generated/uapi/video ; touch /root/headers-install/include/video/.install

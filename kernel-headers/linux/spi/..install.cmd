@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/linux/spi/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/spi ./include/uapi/linux/spi spidev.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/spi ./include/generated/uapi/linux/spi ; touch /root/headers-install/include/linux/spi/.install

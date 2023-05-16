@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/linux/caif/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/caif ./include/uapi/linux/caif caif_socket.h if_caif.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/caif ./include/generated/uapi/linux/caif ; touch /root/headers-install/include/linux/caif/.install

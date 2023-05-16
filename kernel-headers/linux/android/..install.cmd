@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/linux/android/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/android ./include/uapi/linux/android binder.h binderfs.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/linux/android ./include/generated/uapi/linux/android ; touch /root/headers-install/include/linux/android/.install

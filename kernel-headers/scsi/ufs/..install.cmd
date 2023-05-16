@@ -1,0 +1,1 @@
+cmd_/root/headers-install/include/scsi/ufs/.install := /bin/bash scripts/headers_install.sh /root/headers-install/include/scsi/ufs ./include/uapi/scsi/ufs ioctl.h ufs.h; /bin/bash scripts/headers_install.sh /root/headers-install/include/scsi/ufs ./include/generated/uapi/scsi/ufs ; touch /root/headers-install/include/scsi/ufs/.install
